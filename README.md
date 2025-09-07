@@ -5,7 +5,6 @@
 *trust⚡* is a decentralized platform that automatically rewards open-source contributors using *Aptos + Move* smart contracts. Contributors get paid instantly when their pull requests are merged, while maintainers can ensure payments are secure and automated.
 
 ---
-
 ## 🌟 Branch Overview
 
 - *main* — GitHub webhooks & backend logic for call actions  
@@ -13,6 +12,11 @@
 - *ujesh* — Aptos smart contracts written in Move  
 
 ---
+## LOGO
+<p align="center">
+  <img src="logo.png" alt="Description" width="300"/>
+</p>
+
 
 ## 🚀 Quick Start
 
