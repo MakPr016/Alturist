@@ -6,6 +6,9 @@ import { defineConfig } from "vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  optimizeDeps: {
+    include: ["aptos", "@aptos-labs/ts-sdk", "@wallet-standard/core"],
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
